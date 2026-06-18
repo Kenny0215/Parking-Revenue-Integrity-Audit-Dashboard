@@ -18,7 +18,6 @@ Local municipal councils face significant financial losses due to **parking reve
 ## 🛠️ Tech Stack & Architecture
 
 * **Data Preprocessing & ML Pipeline:** Python, Pandas, Numpy, Scikit-Learn, XGBoost, Joblib (Google Colab)
-* **Web UI Deployment:** Gradio (Python)
 * **Business Intelligence & Visualization:** Power BI Desktop, DAX (Data Analysis Expressions)
 
 ---
@@ -83,12 +82,3 @@ The dashboard is designed as a unified, scrollable single-page report consisting
 * **Council & Product Type Comparison:** Provides targeted metrics comparing MBMB vs. MPHTJ leakage rates, and ranks which ticket products are most abused.
 
 ---
-
-## 🚀 How to Run the Project
-
-### 1. Run the ML Pipeline (Colab)
-Run the cells in `nan_sense_parking_revenue_integrity_audit_dashboard.py` to:
-* Clean and left-join the raw CSV files.
-* Train and evaluate the models.
-* Save the serialized model and encoders (`best_model.pkl`, `le_road.pkl`, etc.).
-* Export the predictive output file (`predictions_for_powerbi.csv`).
