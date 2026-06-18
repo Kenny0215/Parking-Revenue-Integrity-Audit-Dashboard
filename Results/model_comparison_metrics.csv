@@ -1,0 +1,16 @@
+﻿Model,Metric,Value
+Random Forest,Accuracy,0.784
+Random Forest,Precision,0.3333333333333333
+Random Forest,Recall,0.5882352941176471
+Random Forest,F1 Score,0.425531914893617
+Random Forest,AUC-ROC,0.8034374243524569
+XGBoost,Accuracy,0.8106666666666666
+XGBoost,Precision,0.3484848484848485
+XGBoost,Recall,0.45098039215686275
+XGBoost,F1 Score,0.39316239316239315
+XGBoost,AUC-ROC,0.746520213023481
+Logistic Regression,Accuracy,0.6426666666666667
+Logistic Regression,Precision,0.24848484848484848
+Logistic Regression,Recall,0.803921568627451
+Logistic Regression,F1 Score,0.37962962962962965
+Logistic Regression,AUC-ROC,0.802953280077463
